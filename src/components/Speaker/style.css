@@ -1,5 +1,8 @@
-.blogPostContainer {
-    width: 70%;
+.speakerContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0px;
 }
 
 .blogHeader {

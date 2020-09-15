@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ContactUs from './containers/ContactUs';
 import Post from './containers/Post';
+import GuestSpeakers from './containers/GuestSpeakers';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Header/>
         <Hero/>
         <Route path="/" exact component={Home} />
-        <Route path="/contact-us" component={ContactUs} />
+        {/* <Route path="/contact-us" component={ContactUs} /> */}
         <Route path="/post" component={Post} />
+        <Route path="/guest-speakers" component={GuestSpeakers} />
       </div>
     </Router>
     
