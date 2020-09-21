@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css';
+import '../style.css';
 import Card from '../UI/Card';
 
 /**
@@ -9,7 +9,7 @@ import Card from '../UI/Card';
 
 const Sidebar = (props) => {
   return(
-      <div className="sidebarContainer">
+      <div className="sidebarContainer" style={{ width: props.width }}>
             <Card style={{marginBottom: '20px'}}>
                 <div className="cardHeader">
                     <span>Important Dates</span>

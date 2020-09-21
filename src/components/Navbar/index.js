@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css';
+import '../style.css';
 import { NavLink } from "react-router-dom";
 
 /**
@@ -15,11 +15,11 @@ const Navbar = (props) => {
             <li><NavLink to="/program-info">Program Info</NavLink></li>
             <li><NavLink to="/post">Posts</NavLink></li>
             <li>
-                <ul className="summer2020">
+                {/* <ul className="summer2020"> */}
                     <li><NavLink to="#">Apply</NavLink></li>
                     <li><NavLink to="/guest-speakers">Guest Speakers</NavLink></li>
                     <li><NavLink to="/students-work">Students Work</NavLink></li>
-                </ul>
+                {/* </ul> */}
             </li>
             <li><NavLink to="/journals">Journals</NavLink></li>
             <li><NavLink to="/donate">Donate</NavLink></li>

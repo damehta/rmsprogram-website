@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../Logo';
 import Navbar from '../Navbar';
 import Card from '../UI/Card';
-import './style.css';
+import '../style.css';
 
 /**
 * @author

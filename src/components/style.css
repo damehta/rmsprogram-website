@@ -1,0 +1,156 @@
+.blogPostContainer {
+    width: 70%;
+}
+
+.blogHeader {
+    text-align: center;
+}
+
+.blogCategory {
+    display: block;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.postTitle {
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.postedBy {
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+}
+
+.postImageContainer {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box ;
+}
+
+.postImageContainer img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.postBody {
+    display: block;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #565673;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+}
+
+.headerMenu a:hover{
+    /* color: dodgerblue; */
+    color: teal;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: teal;
+    text-decoration: teal;
+    text-align: center;
+    vertical-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+    padding: 0 10px;
+}
+
+.navbar a:hover{
+    /* color: dodgerblue; */
+    color: teal;
+}
+
+.search{
+    display: flex;
+    margin: 0 10px;
+}
+
+.search img{
+    padding-left: 5px
+}
+
+.sidebarContainer {
+    width: 28%;
+}
+
+.cardHeader{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #565673;
+}
+
+.cardBullet li{
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #565673;
+}
+
+.speakerContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0px;
+}
+
+.Card{
+    background: white;
+    padding: 0px;
+    width: 100%;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../UI/Card';
-import './style.css';
+import '../style.css';
 /**
 * @author
 * @function Speaker

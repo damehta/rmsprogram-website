@@ -11,6 +11,7 @@ const GuestSpeakers = (props) => {
   return(
         <section className="container">
             <Speaker/>
+            <Speaker/>
         </section>
 
    )
