@@ -1,15 +1,19 @@
 import React from 'react'
+import '../style.css';
+import Card  from "../../components/UI/Card";
+// import BlogPost from '../../components/BlogPost';
+// import Sidebar from '../../components/Sidebar';
 
 /**
 * @author
-* @function ContactUs
+* @function Contact Us
 **/
 
 const ContactUs = (props) => {
   return(
-    <div>Contact Us</div>
-   )
+        <Card />
 
+    )
  }
 
 export default ContactUs
