@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style.css';
 import { NavLink } from "react-router-dom";
-import Navbar from '../Navbar';
+import SocialMedia from '../SocialMedia';
 /**
 * @author
 * @function Header
@@ -12,11 +12,11 @@ const Header = (props) => {
     <header className="header">
         <nav className="headerMenu">
             <NavLink to="/">RESEARCH MADE SIMPLE</NavLink>
-            <NavLink to="/about-us">About Us</NavLink>
-            <NavLink to="/contat-us">Contact Us</NavLink>
+            <NavLink to="/meet-our-team">Meet Our Team</NavLink>
+            <NavLink to="/contact-us">Contact Us</NavLink>
         </nav>
         <div>
-            Social Media Links
+            <SocialMedia />
         </div>
     </header>
    )

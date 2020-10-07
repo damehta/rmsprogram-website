@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../Logo';
-import Navbar from '../Navbar';
+import TopNavbar from '../TopNavbar';
 import Card from '../UI/Card';
 import '../style.css';
 
@@ -16,7 +16,7 @@ const Hero = (props) => {
             <div style = {{ padding: '40px 0' }}>
                 <Logo/>
             </div>
-            <Navbar/>
+            <TopNavbar/>
         </Card>
     </div>
    )
