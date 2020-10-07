@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../UI/Card';
 import '../style.css';
-import { NavLink } from 'react-router-dom';
 import blogPost from '../../data/GuestSpeakersData.json';
 
 /**
@@ -9,7 +8,7 @@ import blogPost from '../../data/GuestSpeakersData.json';
 * @function BlogPost
 **/
 
-const BlogPost = (props) => {
+const BlogPost = (pros) => {
 
     const [post, setPost] = useState({
         id: "" ,
@@ -18,29 +17,30 @@ const BlogPost = (props) => {
         postedOn: "" ,
         author: "" ,
         blogImage: "" ,
-        blogText: ""
+        blogText: "",
+        recordingLink: ""
     });
     const [slug, setSlug] = useState('');
     
     
     useEffect(() => {
-        const slug = props.match.params.slug;
-        const post = blogPost.data.find(post => post.slug == slug);
+        const slug = pros.match.params.slug;
+        const post = blogPost.find(post => post.slug === slug);
         setPost(post);
         setSlug(slug);
-    }, [post, props.match.params.slug]);
+    }, [post, pros.match.params.slug]);
 
-    if(post.blogImage == "") return null;
+    if(post.blogImage === "") return null;
 
   return(
-        <div className="blogPostContainer">
+        <div>
             <Card>
                 <div className="blogHeader">
                     <span className="blogCategory">{post.blogCategory}</span>
                     <h1 className="postTitle">{post.blogTitle}</h1>
                     <span className="postedBy">posted on {post.postedOn} by {post.author}</span>
                     <span className="postBody">
-                        // <NavLink to="linkedin.com">Dr. Hiren patel</NavLink>
+                        {/* // <NavLink to="linkedin.com">Dr. Hiren patel</NavLink> */}
                         {post.blogTitle}
                     </span>
                 </div>
