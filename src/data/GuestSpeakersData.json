@@ -1,31 +1,92 @@
-{
-    "data":[
+[
         {
             "id": 1,
             "blogCategory":"Featured",
-            "blogTitle": "One",
+            "blogTitle": "Dr. Hiren Patel MD MCHM",
             "postedOn" : "September 13, 2020",
             "author" : "Aatmi Mehta",
             "blogImage" : "gs7-DrHirenPatel.png",
-            "blogText" : "Dr. Hiren Patel, MD, MCHM Dr. Hiren patel is a doctor and also has a MCHM from Harvard University. He completed his residency at NYU Brooklyn. He currently works to manage hospitals all across the US.      Thank you so much for speaking to us Dr. Patel! It was so incredible to hear about your inspiring journey and your exciting career! ​Recording Unavailable"
+            "blogText" : "Dr. Hiren Patel, MD, MCHM Dr. Hiren patel is a doctor and also has a MCHM from Harvard University. He completed his residency at NYU Brooklyn. He currently works to manage hospitals all across the US.      Thank you so much for speaking to us Dr. Patel! It was so incredible to hear about your inspiring journey and your exciting career! ​Recording Unavailable",
+            "recordingLink" : ""
         },
         {
             "id": 2,
             "blogCategory":"Important",
-            "blogTitle": "Two",
+            "blogTitle": "Break The Outbreak",
             "postedOn" : "September 13, 2020",
             "author" : "Saivishnu Tulugu",
             "blogImage" : "SpEvent2-BTO.png",
-            "blogText" : "BTOB or Break the Outbreak, is a 501(c)3 nonprofit organization that works to supply masks within communities across the nation! Hear about their plans and amazing work! To join this booming organization, find out more at breaktheoutbreak.org"
+            "blogText" : "BTOB or Break the Outbreak, is a 501(c)3 nonprofit organization that works to supply masks within communities across the nation! Hear about their plans and amazing work! To join this booming organization, find out more at http://www.breaktheoutbreak.org",
+            "recordingLink" : ""
         },
         {
             "id": 3,
             "blogCategory":"Update",
-            "blogTitle": "Three",
+            "blogTitle": "COPE Organization",
             "postedOn" : "September 13, 2020",
             "author" : "Aatmi Mehta",
             "blogImage" : "SpEvent1-COPEOrg.png",
-            "blogText" : "COPE, or Community Outbreak Preparedness Education, is a nonprofit organization that works to prepare vulnerable communities to prepare for natural and disasters and disseminate public health information. To hear about their plans, amazing work, and to find out more, check out: copeorg.wixsite.com/cope"
+            "blogText" : "COPE, or Community Outbreak Preparedness Education, is a nonprofit organization that works to prepare vulnerable communities to prepare for natural and disasters and disseminate public health information. To hear about their plans, amazing work, and to find out more, check out below link",
+            "recordingLink": "http://copeorg.wixsite.com/cope"
+        },
+        {
+            "id": 4,
+            "blogCategory":"Update",
+            "blogTitle": "Professor Jennifer O'Neal",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs6-ProfJenniferONeal.png",
+            "blogText" : "Professor O'Neal is a Psychology Professor at Las Positas College in California. Professor O'Neal has worked many years in the field of psychology. Thank you so much for speaking to us Professor O'Neal! Your life and journey is incredibly inspiring. Thank you for sharing the lessons you have learned with us! Recording unavailable",
+            "recordingLink" : ""
+        },
+        {
+            "id": 5,
+            "blogCategory":"Update",
+            "blogTitle": "Mrs. Sarah Davila MPH, CHEP, Ph.D (in-progress)",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs5-MrsSarahDavila.png",
+            "blogText" : "Mrs. Sarah Davila is a Public health scientist and researcher. She is a Professor of public health at Chaffey College in California. She focuses on Health disparities in the Latinx popn. Thank you so much for speaking to us! We have learned so much about your profession, life, career, studies, and more. We especially appreciated the information you taught us about health in the Latinx populations and in other underepresented minority groups. Thank you so much for speaking to us!",
+            "recordingLink" : "https://drive.google.com/file/d/1Km8sTJr5gkNSKbUPtku2hqexKiy3Wz7W/view?usp=sharing"
+        },
+        {
+            "id": 6,
+            "blogCategory":"Update",
+            "blogTitle": "Miss Priyanka Iragavarapu",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs3-MissPriyanka.png",
+            "blogText" : "Priyanka is a recent HS grad from Livermore high school in livermore CA. However, she completed high school in a really special and interesting way that has now set her up for success and acceleration in her college career. She will be attending UCLA this fall and has sophomore standing. She has completed research during her high school years and is on her way to becoming published. Hear about the unique and exciting opportunity she took advantage of in HS to set herself up for success in college!",
+            "recordingLink" : "https://drive.google.com/file/d/1WjiZIQnMvormnY9GYQJ0D-8YrkgIC0Jl/view?usp=drivesdk"
+        },
+        {
+            "id": 6,
+            "blogCategory":"Update",
+            "blogTitle": "Dr. Varuputoor",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs3-DrVaruputoor.png",
+            "blogText" : "Dr. Varuputoor is board certified in internal medicine and is currently working at Kaiser Permanente. Dr. V has also worked in emergency and family medicine. Dr. V completed her medical school in India and then came to the US to complete her residency at Drexel University in internal medicine. After her residency, Dr. V joined Kaiser and has been there since! Dr. Varuputoor is extremely talented in dance and also makes INCREDIBLE food! Thank you both for speaking to us! your ideas and stories are amazing and we have learned so much from you both!",
+            "recordingLink" : "https://drive.google.com/file/d/1WjiZIQnMvormnY9GYQJ0D-8YrkgIC0Jl/view?usp=drivesdk"
+        },
+        {
+            "id": 7,
+            "blogCategory":"Update",
+            "blogTitle": "Mrs. Amarissa Koelling!",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs2-MrsAmrissaKoelling.jpeg",
+            "blogText" : "Mrs. Koelling is a Cancer Researcher at Gritstone Oncology.Thank you so much for joining us Mrs. Koelling! We really appreciated learning so much about your work. We learned a lot about how cancers are treated, what you are working on, how human trials work, and about your life! Thank you!",
+            "recordingLink" : "https://drive.google.com/file/d/1ejV5e4YTXCPZJCddhFkyONoip8BemLMX/view?usp=sharing"
+        },
+        {
+            "id": 8,
+            "blogCategory":"Update",
+            "blogTitle": "BSMD Boosters",
+            "postedOn" : "September 13, 2020",
+            "author" : "Aatmi Mehta",
+            "blogImage" : "gs1-bsmdb.jpeg",
+            "blogText" : "Thank you so much to Riya and Sohil from BSMD boosters for coming to speak with us! We were able to learn so much about research, BSMD programs, college admissions, and more. Thank you for joining us! \n Instagram: @bsmd.boosters \n tik tok: @bsmd.boosters \n youtube: BSMD Bossters \n email: bsmdboosters@gmail.com",
+            "recordingLink" : "https://drive.google.com/file/d/1JdI3Jh4DiCsg6MVLQAYIjVZFW_BX_XX5/view"
         }
-    ]
-}
+]
