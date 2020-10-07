@@ -9,7 +9,10 @@
 .blogCategory {
     display: block;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 5px 0;
+    text-align: right;
+    margin: 0.5em;
+    margin-right: 1em;
 }
 
 .postTitle {
@@ -18,19 +21,24 @@
     font-size: 30px;
     margin: 0;
     font-weight: 400;
+    text-align: center;
 }
 
 .postedBy {
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
-    padding: 10px 0;
+    padding: 0;
+    margin: 0.5em;
+    margin-right: 1em;
     display: block;
+    text-align: right;
 }
 
 .postImageContainer {
     width: 100%;
     padding: 5px;
     box-sizing: border-box ;
+    break-inside: avoid;
 }
 
 .postImageContainer img {
@@ -50,16 +58,16 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0.5em;
+    margin: 0.3em;
 }
 
 .headerMenu a{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 8px;
     text-decoration: none;
     color: #565673;
     letter-spacing: 1.2px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .headerMenu a:hover{
@@ -80,36 +88,6 @@
     vertical-align: center;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5em;
-}
-
-.navbar ul{
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-    text-transform: capitalize;
-    font-weight: 400;
-    color: #565673;
-    padding: 0 10px;
-}
-
-.navbar a:hover{
-    /* color: dodgerblue; */
-    color: teal;
-}
 
 .search{
     display: flex;
@@ -147,10 +125,56 @@
     box-sizing: border-box;
     padding: 1em;
     margin: 0px;
+    break-inside: avoid;
 }
 
+.speakerPBody {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    font-size: 14px;
+    padding: 1em;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
 .Card{
     background: white;
     padding: 0px;
     width: 100%;
 }
+
+
+.navbar {
+    display: block;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+    padding: 0 10px;
+}
+
+.navbar a:hover{
+    /* color: dodgerblue; */
+    color: teal;
+}
+
+
